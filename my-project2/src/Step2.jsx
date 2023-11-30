@@ -3,7 +3,7 @@ export default function Step1() {
     <>
       <div className="w-full h-screen bg-bg2 text-white grid grid-cols-2 grid-rows-1 relative">
 
-     
+
 
         <div className="flex flex-col justify-center items-center m-auto ">
           <div className="w-1/2">
