@@ -9,15 +9,6 @@ import './App.css'
 const ID = "169"
 let dataSerie = {}
 export default function App() {
-<<<<<<< HEAD
-  
-  return (
-    <>
-      <Step1/>
-      <Step2/>
-      <Step3/>
-
-=======
 
   const urlSerie = `https://api.tvmaze.com/shows/${ID}?embed[]=seasons&embed[]=cast`
 
@@ -49,7 +40,6 @@ export default function App() {
       {data &&
         <Actor data={dataSerie.listCast} />
       }
->>>>>>> 7294b43ff30146f8b6a37bb6b04049fa872ab6d4
     </>
   )
 }
