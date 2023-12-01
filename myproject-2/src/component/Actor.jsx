@@ -1,5 +1,4 @@
 import { useState } from "react"
-import SelectorCast from "./SelectA"
 import Arrow from "./Arrow"
 
 export default function Cast({ data }) {
@@ -20,8 +19,8 @@ export default function Cast({ data }) {
 
     return (
         <>
-            <div className="flex relative flex-col items-center justify-center gap-4 bg-green-900 py-8">
-                <p className="text-2xl font-h2">Cast & Characters</p>
+            <div className="flex relative flex-col items-center justify-center bg-green-900 py-8 gap-20">
+                <p className="text-7xl font-bold font-txt text-white">Cast & Characters</p>
                 <div className="flex flex-row items-center justify-center gap-4">
                 <button className="" onClick={handlerPrev}>
                         <Arrow className="h-6 w-6" />
