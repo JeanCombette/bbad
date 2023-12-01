@@ -27,6 +27,10 @@ export default {
         'title': ['Caprasimo', 'serif'],
         'txt':  ['Montserrat', 'sans-serif'],
         
+      },
+
+      boxShadow:{
+        'left': 'inset 120px 120px 120px -15px rgba(0, 0, 0, 0.3)'
       }
     },
   },
