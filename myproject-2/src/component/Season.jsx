@@ -6,7 +6,7 @@ export default function Season({ data }) {
     let summary = data[season].summary.replace(/(<([^>]+)>)/gi, "");
     return (
         <>
-            <section className="w-full h-screen bg-bg2 text-white grid grid-cols-2 grid-rows-1 relative">
+            <section className="snap-center shrink-0 w-full h-screen bg-bg2 text-white grid grid-cols-2 grid-rows-1 relative">
                 <div className="flex justify-center items-center m-auto ">
                     <div className="w-1/2">
                         <SelectorSeason data={data} setSeason={setSeason} />
