@@ -16,9 +16,9 @@ export default function Card({ data }) {
   </div>
 
   <div className="flex flex-col w-full justify-center">
-    <h1 className="font-h1 text-7xl ">{data.serie}</h1>
-    <h2 className="font-h2 text-4xl">
-      2008 | Catégorie d'âge :16+ | 5 saisons | {data.genres}
+    <h1 className="font-title text-7xl ">{data.serie}</h1>
+    <h2 className="font-txt text-4xl">
+      2008 | Catégorie d'âge : 16+ | 5 saisons | {data.genres}
     </h2>
     <p className="font-txt text-xl mt-6">
       {resume}

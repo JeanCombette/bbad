@@ -18,12 +18,13 @@ export default {
         'bg' : 'linear-gradient(0.25turn, #FBB608, #FDDD05);',
         'bg2' : 'linear-gradient(0.25turn, #016A26, #103D2B);',
         'bg3' : 'linear-gradient(4turn, #FBB608, #FDDD05);',
-        'bgw' : "url('./src/assets/wwhite.png')"
+        'bgw' : "url('./src/assets/wwhite.png')",
+        'bgt' : "url('./src/assets/tableau.png",
 
       },
       fontFamily: {
         'h1': "Cooper Lt BT Bold",
-        'h2': "Helvetica",
+        'title': ['Caprasimo', 'serif'],
         'txt':  ['Montserrat', 'sans-serif'],
         
       }
