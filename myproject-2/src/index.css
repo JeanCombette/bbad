@@ -12,3 +12,7 @@
     background-repeat: no-repeat;
     background-repeat: no-repeat;
 }
+
+.tableau{
+    background-image: url('./src/assets/tableau.png');
+}

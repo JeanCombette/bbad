@@ -19,7 +19,7 @@ export default function Cast({ data }) {
 
     return (
         <>
-            <section className="h-screen snap-center shrink-0 flex relative flex-col items-center justify-center text-center bg-green-900 py-8 gap-4 bg-bgt">
+            <section className="w-screen h-screen snap-center shrink-0 flex relative flex-col items-center justify-center text-center bg-green-900 gap-4 tableau overflow-hidden">
                 <div className="flex flex-col gap-20">
                     <p className="text-7xl font-bold font-txt text-white">Cast & Characters</p>
                     <div className="flex flex-row items-center justify-center gap-4">

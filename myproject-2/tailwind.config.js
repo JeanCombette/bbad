@@ -19,7 +19,7 @@ export default {
         'bg2' : 'linear-gradient(0.25turn, #016A26, #103D2B);',
         'bg3' : 'linear-gradient(4turn, #FBB608, #FDDD05);',
         'bgw' : "url('./src/assets/wwhite.png')",
-        'bgt' : "url('./src/assets/tableau.png",
+        'tableau' : "url('./src/assets/tableau.png)",
 
       },
       fontFamily: {
