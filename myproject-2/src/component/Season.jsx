@@ -22,7 +22,7 @@ export default function Season({ data }) {
               Nombre d'épisodes :{" "}
               <span className="font-bold">{data[season].episodeOrder}</span>
             </p>
-            <SelectorSeason data={data} setSeason={setSeason} />
+            <SelectorSeason data={data} setSeason={setSeason} className='w-10' />
 
           </div>
         </div>
