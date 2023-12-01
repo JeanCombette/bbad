@@ -12,3 +12,8 @@
     background-repeat: no-repeat;
     background-repeat: no-repeat;
 }
+
+.filtre{
+    filter: brightness(0) saturate(100%) invert(87%) sepia(18%) saturate(631%) hue-rotate(340deg) brightness(105%) contrast(104%) opacity(50%);
+
+}
