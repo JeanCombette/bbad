@@ -21,25 +21,25 @@ export default function App() {
       resume: data.summary,
       listSeason: data._embedded.seasons,
       listCast: data._embedded.cast,
-
-
     }
     console.log(dataSerie.listCast)
   }
 
   return (
     <>
+    <div className='flex snap-x snap-mandatory h-screen w-full mx:auto overflow-scroll'>
        {isLoading && <p>Chargement...</p>}
       {isError && <p>Une erreur est survenue !</p>}
       {data &&
-        <Card data={dataSerie} />
+        <Card data={dataSerie}/>
       } 
       {data &&
-        <Season data={dataSerie.listSeason} />
+        <Season data={dataSerie.listSeason}/>
       }
       {data &&
-        <Actor data={dataSerie.listCast} />
+        <Actor data={dataSerie.listCast}/>
       }
+      </div>
     </>
   )
 }

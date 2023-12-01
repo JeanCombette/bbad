@@ -8,9 +8,8 @@ export default function Card({ data }) {
 
   return (
     <>
-      <div className=""></div>
 
-<div className="w-full h-screen bg-bgw bg-cover bg-no-repeat  relative grid grid-cols-2 ">
+<div className="snap-center shrink-0 w-full h-screen bg-bgw bg-cover bg-no-repeat  relative grid grid-cols-2 ">
   <div className="w-full">
     {/* <img src="./src/assets/wwhite.png" alt="" className="h-screen w-full saturate-0 z-0"/> */}
   </div>
