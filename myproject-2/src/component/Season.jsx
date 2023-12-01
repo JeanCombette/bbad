@@ -16,6 +16,7 @@ export default function Season({ data }) {
         </video>
 
           <div className="w-1/2 z-0">
+            <p className="font-title text-white text-6xl">Season {data[season].number}</p>
             <p className="font-txt text-xl font-light mt-2">{summary}</p>
             <p>
               Nombre d'épisodes :{" "}
