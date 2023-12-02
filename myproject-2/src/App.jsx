@@ -3,6 +3,7 @@ import useFetch from './utils/useFetch';
 import Season from './component/Season';
 import Card from './component/Card';
 import Actor from './component/Actor';
+import Footer from './component/Footer';
 
 import './App.css'
 
@@ -10,7 +11,7 @@ const ID = "169"
 let dataSerie = {}
 export default function App() {
 
-  const urlSerie = `https://api.tvmaze.com/shows/${ID}?embed[]=seasons&embed[]=cast`
+  const urlSerie = `https://api.tvmaze.com/shows/${ID}?embed[]=seasons&embed[]=cast&embed[]=images`
 
   const [url, setUrl] = useState(urlSerie)
   const { isLoading, isError, data } = useFetch(url)
@@ -21,8 +22,9 @@ export default function App() {
       resume: data.summary,
       listSeason: data._embedded.seasons,
       listCast: data._embedded.cast,
+      listImages: data._embedded.images,
     }
-    console.log(dataSerie.listCast)
+    console.log(dataSerie.listImages[25].resolutions.original.url)
   }
 
   return (
@@ -38,6 +40,9 @@ export default function App() {
       }
       {data &&
         <Actor data={dataSerie.listCast}/>
+      }
+      {data &&
+        <Footer data={dataSerie.listImages}/>
       }
       </div>
     </>
