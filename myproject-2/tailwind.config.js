@@ -10,13 +10,13 @@ export default {
         "yel": "#FBB608",
         "yel2": "#FDDD05",
         "txt": "#000000",
-        "overlay":"#EDB61B"
-
-
+        "overlay":"#EDB61B",
+        "green": "#016A26",
+        "green-dark": "#103D2B",
       },
       backgroundImage :{
         'bg' : 'linear-gradient(0.25turn, #FBB608, #FDDD05);',
-        'bg2' : 'linear-gradient(0.25turn, #016A26, #103D2B);',
+        'bg2' : 'linear-gradient(1turn, #016A26, #103D2B);',
         'bg3' : 'linear-gradient(4turn, #FBB608, #FDDD05);',
         'bgw' : "url('./src/assets/wwhite.png')",
         'tableau' : "url('./src/assets/tableau.png)",
