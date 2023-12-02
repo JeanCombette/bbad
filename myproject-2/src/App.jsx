@@ -24,7 +24,7 @@ export default function App() {
       listCast: data._embedded.cast,
       listImages: data._embedded.images,
     }
-    console.log(dataSerie.listImages[25].resolutions.original.url)
+    // console.log(dataSerie.listImages[25].resolutions.original.url)
   }
 
   return (

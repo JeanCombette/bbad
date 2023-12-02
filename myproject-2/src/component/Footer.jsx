@@ -5,7 +5,7 @@ export default function Footer ({data}){
     return(
         <>
         <div className="w-screen h-screen">
-            <img className="w-screen h-screen" src={data[bg].resolutions.original.url} alt={data.id} />
+            <img className="" width={data[bg].resolutions.original.width} height={data[bg].resolutions.original.height} src={data[bg].resolutions.original.url} alt={data.id} />
         </div>
         </>
     )
