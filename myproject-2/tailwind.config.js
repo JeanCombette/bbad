@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+     
       colors:{
         "yel": "#FBB608",
         "yel2": "#FDDD05",
@@ -23,9 +24,11 @@ export default {
 
       },
       fontFamily: {
-        'h1': "Cooper Lt BT Bold",
+        'h1': "Cooper Bold BT V1",
         'title': ['Caprasimo', 'serif'],
         'txt':  ['Montserrat', 'sans-serif'],
+        "test":"caps"
+
         
       },
 

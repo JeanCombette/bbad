@@ -1,3 +1,8 @@
+@font-face {
+    font-family: caps;
+    src: url(../public/Bbad_caps.otf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,4 +23,8 @@
 }    
 .filtre{
     filter: brightness(0) saturate(100%) invert(87%) sepia(18%) saturate(631%) hue-rotate(340deg) brightness(105%) contrast(104%) opacity(50%);
+}
+
+.teinte{
+    filter: invert(3%) sepia(20%) hue-rotate(78deg) brightness(97%) contrast(101%);
 }

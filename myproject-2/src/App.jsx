@@ -29,7 +29,7 @@ export default function App() {
 
   return (
     <>
-    <div className='flex snap-x snap-mandatory h-screen w-full mx:auto overflow-scroll'>
+    <div className=''>
        {isLoading && <p>Chargement...</p>}
       {isError && <p>Une erreur est survenue !</p>}
       {data &&

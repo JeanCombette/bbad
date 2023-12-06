@@ -19,7 +19,7 @@ export default function Cast({ data }) {
 
     return (
         <>
-            <section className="w-screen h-screen snap-center shrink-0 flex relative flex-col items-center justify-center text-center bg-green-900 gap-4 tableau bg-no-repeat">
+            <section className="w-full h-screen flex relative flex-col items-center justify-center text-center bg-green-900 gap-4 tableau bg-no-repeat">
                 <div className="flex flex-col gap-20">
                     <p className="text-7xl font-bold font-txt text-white">Cast & Characters</p>
                     <div className="flex flex-row items-center justify-center gap-4">
@@ -32,7 +32,7 @@ export default function Cast({ data }) {
                         </button>
                     </div>
                 </div>
-                <h2 className="text-white text-5xl font-title">{data[cast].character.name}<span className="block text-3xl mt-2 font-txt">played by <b>{data[cast].person.name}</b></span></h2>
+                <h2 className="text-white text-5xl font-h1">{data[cast].character.name}<span className="block text-3xl mt-2 font-txt">played by <b>{data[cast].person.name}</b></span></h2>
             </section>
         </>
     )
